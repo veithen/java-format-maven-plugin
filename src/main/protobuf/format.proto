@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option java_package = "com.github.veithen.maven.format";
+option java_multiple_files = true;
+
+message FormatRequest {
+    repeated string files = 1;
+    optional string encoding = 2;
+    optional bool check_only = 3;
+    optional string style = 4;
+    optional string import_order_style = 5;
+    optional bool remove_unused_imports = 6;
+    optional bool sort_imports = 7;
+}
+
+message FormatResponse {
+    repeated string non_conforming_files = 1;
+    optional string error = 2;
+}
