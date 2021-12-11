@@ -27,7 +27,7 @@
 
     <groupId>com.github.veithen.maven</groupId>
     <artifactId>java-format-maven-plugin</artifactId>
-    <version>0.1.0</version>
+    <version>0.1.1-SNAPSHOT</version>
     <packaging>maven-plugin</packaging>
 
     <url>http://veithen.github.io/daemon/</url>
@@ -44,7 +44,7 @@
         <url>https://github.com/veithen/java-format-maven-plugin/tree/master</url>
         <connection>scm:git:http://github.com/veithen/java-format-maven-plugin.git</connection>
         <developerConnection>scm:git:https://github.com/veithen/java-format-maven-plugin.git</developerConnection>
-        <tag>0.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
