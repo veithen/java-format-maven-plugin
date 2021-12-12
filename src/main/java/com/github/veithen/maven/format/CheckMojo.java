@@ -38,7 +38,7 @@ public class CheckMojo extends AbstractFormatMojo {
             throws MojoExecutionException, MojoFailureException {
         throw new MojoFailureException(
                 String.format(
-                        "Found %d non-conforming files; run mvn java-format:format to fix them",
+                        "Found %d non-conforming files; run mvn java-format:fix to fix them",
                         files.size()));
     }
 }

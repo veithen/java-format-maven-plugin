@@ -25,8 +25,8 @@ import org.apache.maven.plugin.MojoExecutionException;
 import org.apache.maven.plugin.MojoFailureException;
 import org.apache.maven.plugins.annotations.Mojo;
 
-@Mojo(name = "format")
-public class FormatMojo extends AbstractFormatMojo {
+@Mojo(name = "fix")
+public class FixMojo extends AbstractFormatMojo {
     @Override
     protected boolean isCheckOnly() {
         return false;
